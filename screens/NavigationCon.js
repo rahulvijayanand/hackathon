@@ -29,11 +29,21 @@ const NavigationCon = () => {
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
+        tabBarIconStyle: {
+          marginLeft: 40,
+          marginRight: 40,
+        },
         tabBarLabelStyle: {
           fontSize: 10,
           paddingBottom: 5,
         },
-        tabBarStyle: { display: "flex", height: 60 },
+        tabBarStyle: {
+          height: 60,
+          borderTopLeftRadius: 20,
+          borderTopRightRadius: 20,
+          backgroundColor: 'darkred',
+          zIndex:5,
+        },
         headerShown: false,
         activeTintColor: "blue",
         inactiveTintColor: "gray",
@@ -45,7 +55,7 @@ const NavigationCon = () => {
           } else if (route.name === "Settings") {
             iconName = "settings-outline";
           } else if (route.name === "Profile") {
-            return null; // don't show an icon for the profile screen
+            return null;
           } else if (route.name === "Search") {
             iconName = "search-outline";
           } else if (route.name === "Notifications") {

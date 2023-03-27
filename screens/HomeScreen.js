@@ -17,6 +17,8 @@ export default function Hom() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    position: "relative", 
+    zIndex: 3,
   },
   gradient: {
     flex: 1,
