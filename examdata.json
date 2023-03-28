@@ -12,6 +12,7 @@
         "exam_description": "One of the most competitive examination onboard for Engineering",
         "exam_score": 3000,
         "exam_completion": 68,
+        "daily_quest":{"question":"Here is the daily quest question for JEE Mains","options":["Option a","Option b","Option c","Option d"]},
         "exam_dates": [
           {
             "exam_name": "JEE Mains 2023",
@@ -143,6 +144,7 @@
         "exam_description": "One of the most competitive examination onboard for Engineering in Masters",
         "exam_score": 1000,
         "exam_completion": 70,
+        "daily_quest":{"question":"Here is the daily quest question for GATE","options":["Option a","Option b","Option c","Option d"]},
         "exam_dates": [
           {
             "exam_name": "GATE 2023",
@@ -282,6 +284,7 @@
         "exam_description": "One of the most competitive examination onboard for Medical",
         "exam_score": 3000,
         "exam_completion": 68,
+        "daily_quest":{"question":"Here is the daily quest question for NEET","options":["Option a","Option b","Option c","Option d"]},
         "exam_dates": [
           {
             "exam_name": "NEET 2023",
@@ -408,6 +411,7 @@
         "exam_description": "One of the most competitive examination onboard for Engineering in Masters",
         "exam_score": 1000,
         "exam_completion": 70,
+        "daily_quest":{"question":"Here is the daily quest question for NEET PG","options":["Option a","Option b","Option c","Option d"]},
         "exam_dates": [
           {
             "exam_name": "NEET PG 2023",
@@ -547,6 +551,7 @@
         "exam_description": "Most Sought after Government Exam in India",
         "exam_score": 3000,
         "exam_completion": 68,
+        "daily_quest":{"question":"Here is the daily quest question for UPSC","options":["Option a","Option b","Option c","Option d"]},
         "exam_dates": [
           {
             "exam_name": "UPSC Prelims",
@@ -678,6 +683,7 @@
         "exam_description": "State Level Government exam (Tamil Nadu), for posts like Deputy Collector!",
         "exam_score": 1000,
         "exam_completion": 70,
+        "daily_quest":{"question":"Here is the daily quest question for TNPSC","options":["Option a","Option b","Option c","Option d"]},
         "exam_dates": [
           {
             "exam_name": "TNPSC Group 1 2023",
