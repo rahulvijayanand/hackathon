@@ -5,7 +5,7 @@ import { Ionicons } from "@expo/vector-icons";
 const Card = ({ title, image, description, backgroundColor }) => {
   return (
     <View style={[styles.card, { backgroundColor }]}>
-      <Image source={{ uri: image }} style={styles.image} />
+      <Image style={styles.image} source={{ uri: image }} />
       <Text style={styles.title}>{title}</Text>
       <Text style={styles.description}>{description}</Text>
       <View style={styles.button}>
@@ -35,12 +35,21 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: "bold",
-    marginBottom: 10,
+    marginTop:10,
+    color:"white"
   },
   image: {
     height: 200,
-    borderTopLeftRadius: 10,
-    borderTopRightRadius: 10,
+    width: 300,
+    resizeMode: "contain",
+    borderRadius: 10,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
   },
   description: {
     fontSize: 16,

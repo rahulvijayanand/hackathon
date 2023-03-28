@@ -2,6 +2,9 @@
   {
     "id": 0,
     "type": "Engineering Entrance",
+    "image":"https://img.freepik.com/free-photo/manager-supervisor-worker-discussing-about-production-results-new-strategy-factory-industrial-hall_342744-112.jpg?w=1060&t=st=1679998060~exp=1679998660~hmac=8fd76beb8116078247b0984e628f8b171522ca3e9f7029ad0e5b688d24a4571e",
+    "description":"This module contains all the Engineering Entrance Exams",
+    "color":"#4285F4",
     "exams": [
       {
         "id": 0,
@@ -269,6 +272,9 @@
   {
     "id": 1,
     "type": "Medical Entrance",
+    "description":"This module contains all the Medical Entrance Exams",
+    "image":"https://img.lovepik.com/photo/50054/5917.jpg_wh860.jpg",
+    "color":"#F4B400",
     "exams": [
       {
         "id": 0,
@@ -531,6 +537,9 @@
   {
     "id": 2,
     "type": "Government Exams",
+    "description":"This module contains all the Government Entrance Exams",
+    "image": "https://static1.shine.com/l/m/images/blog/government-jobs.jpg",
+    "color":"#0F9D58",
     "exams": [
       {
         "id": 0,

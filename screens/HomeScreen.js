@@ -1,9 +1,9 @@
-import React from "react";
+import { React, useState } from "react";
 import { StyleSheet, View, ScrollView, Text } from "react-native";
 import Slider from "../components/Slider";
 import Card from "../components/Card";
 import Search from "../components/searchbar";
-
+import data from "../examdata.json";
 export default function HomeScreen() {
   return (
     <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
@@ -26,13 +26,16 @@ export default function HomeScreen() {
         >
           Categories
         </Text>
-        <Card
-          title="Card Title"
-          description="This is a description of the card."
-          backgroundColor="#F5DEB3"
-        />
+        {data.map((item) => (
+          <Card
+            title={item.type}
+            image={item.image}
+            description={item.description}
+            backgroundColor={item.color}
+          />
+        ))}
       </View>
-      <View style={{marginBottom:30}}></View>
+      <View style={{ marginBottom: 30 }}></View>
     </ScrollView>
   );
 }

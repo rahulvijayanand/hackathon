@@ -1,13 +1,13 @@
 import React, { useState, useRef, useEffect } from "react";
-import { View, Text, Dimensions, ScrollView } from "react-native";
+import { View, Text, Dimensions, ScrollView, Image,StyleSheet } from "react-native";
 
 const { width } = Dimensions.get("window");
 
 const data = [
-  { id: 1, title: "Slide 1", color: "#DB4437" },
-  { id: 2, title: "Slide 2", color: "#4285F4" },
-  { id: 3, title: "Slide 3", color: "#0F9D58" },
-  { id: 4, title: "Slide 4", color: "#F4B400" },
+  { id: 1, title: "Something Big is Coming, JEE Exams from March", color: "red" ,image:require('../assets/jee.jpg')},
+  { id: 2, title: "NEET Results to be announced in April", color: "blue",image:require('../assets/neet.jpg') },
+  { id: 3, title: "UPSC Group 3 Exams coming up with 60 Job Openings!", color: "green" ,image:require('../assets/toefl.jpg')},
+  { id: 4, title: "TCS hires 200 UX Designers amidst Recession", color: "yellow" ,image:require('../assets/board.jpg')},
 ];
 
 const dotSize = 13;
@@ -92,7 +92,8 @@ const Carousel = () => {
               elevation: 5,
             }}
           >
-            <Text style={{ fontSize: 24 }}>{item.title}</Text>
+            <Image style={styles.image} source={item.image}  />
+            <Text style={{ fontSize: 24,position:"absolute",color:"white",fontWeight:"bold",justifyContent:"center",marginHorizontal:20 }}>{item.title}</Text>
           </View>
         ))}
       </ScrollView>
@@ -122,4 +123,12 @@ const Carousel = () => {
   
 };
 
+const styles = StyleSheet.create({
+  image: {
+    height: 230,
+    width:width,
+    resizeMode:"contain",
+    borderRadius:10,
+  },
+});
 export default Carousel;
