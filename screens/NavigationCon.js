@@ -11,6 +11,17 @@ import SettingsScreen from "./SettingsScreen";
 
 const Tab = createBottomTabNavigator();
 
+const TabBarIcon = ({ iconName, focused }) => {
+  return (
+    <View style={{ alignItems: "center" }}>
+      <Feather name={iconName} size={24} color={focused ? "#FFD700" : "#ffffff"} />
+      {focused && (
+        <View style={{ width: 8, height: 8, borderRadius: 4, backgroundColor: "#FFD700", marginTop: 4 }} />
+      )}
+    </View>
+  );
+};
+
 const NavigationCon = () => {
   const navigation = useNavigation();
 
@@ -26,11 +37,14 @@ const NavigationCon = () => {
         },
         tabBarStyle: {
           backgroundColor: "#DB4437",
+          borderTopLeftRadius:10,
+          borderTopRightRadius:10,
         },
+
         headerShown: false,
         activeTintColor: "#ffffff",
 
-        tabBarIcon: ({ color, size }) => {
+        tabBarIcon: ({ color, size, focused }) => {
           let iconName;
 
           if (route.name === "Home") {
@@ -45,9 +59,12 @@ const NavigationCon = () => {
             iconName = "user";
           }
 
-          return <Feather name={iconName} size={size} color={"white"} />;
+          return <TabBarIcon iconName={iconName} focused={focused} />;
         },
       })}
+      tabBarOptions={{
+        showLabel: false,
+      }}
     >
       <Tab.Screen name="Home" component={HomeStack} />
       <Tab.Screen name="Settings" component={SettingsScreen} />

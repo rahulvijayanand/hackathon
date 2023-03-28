@@ -120,11 +120,16 @@ const Carousel = () => {
               shadowOpacity: 0.25,
               shadowRadius: 3.84,
               elevation: 5,
-              borderWidth:2,
-              borderColor:'w'
+              borderWidth: 2,
+              borderColor: "w",
             }}
           >
-            <Image style={styles.image} source={item.image} />
+            <Image
+              style={[styles.image, { borderWidth: 4, borderColor: "#DB4437" }]}
+              source={item.image}
+            />
+            <View style={[styles.overlay]} />
+
             <Text
               style={{
                 fontSize: 24,
@@ -172,5 +177,15 @@ const styles = StyleSheet.create({
     resizeMode: "contain",
     borderRadius: 10,
   },
+  overlay: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: "rgba(0, 0, 0, 0.5)",
+    borderRadius: 10,
+  },
 });
+
 export default Carousel;
