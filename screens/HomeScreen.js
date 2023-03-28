@@ -4,7 +4,7 @@ import Slider from "../components/Slider";
 import Card from "../components/Card";
 import Search from "../components/searchbar";
 import data from "../examdata.json";
-export default function HomeScreen({navigation}) {
+export default function HomeScreen({ route, navigation }) {
   return (
     <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
       <View>
@@ -28,8 +28,12 @@ export default function HomeScreen({navigation}) {
         >
           Categories
         </Text>
-        {data.map((item) => (
-          <Pressable onPress={() => navigation.navigate("CN")}>
+        {data.map((item, index) => (
+          <Pressable
+            onPress={() => {
+              navigation.navigate("CN", { id: index  });
+            }}
+          >
             <Card
               title={item.type}
               image={item.image}

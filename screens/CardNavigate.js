@@ -8,8 +8,11 @@ import {
 } from "react-native";
 import Search from "../components/searchbar";
 import CardSmall from "../components/CardSmall";
-
-const CN = () => {
+import data from "../examdata.json";
+function CN({route,navigation}) {
+  console.log('route:', route);
+  console.log('route.params:', route.params);
+  const {id}=route.params;
   return (
     <ScrollView style={styles.container}>
       <View style={{ marginTop: 40, right: 30 }}>
@@ -21,11 +24,13 @@ const CN = () => {
         </Text>
       </View>
       <View style={{ marginTop: 10 }}>
-        <CardSmall
-          title="Content"
-          description="enjoy pannunga broo"
-          backgroundColor="#EEEEEE"
+        {data[id].exams.map((item)=>(
+          <CardSmall
+          title={item.exam_name}
+          description={item.exam_description}
+          backgroundColor={item.color}
         />
+        ))}
       </View>
       <View style={{ marginBottom: 30 }}></View>
     </ScrollView>
