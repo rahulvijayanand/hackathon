@@ -21,6 +21,13 @@ const CSN = ({ navigation }) => {
             borderRadius: 15,
             alignItems: "center",
             marginTop: 10,
+            shadowOffset: {
+                width: 0,
+                height: 2,
+              },
+              shadowOpacity: 0.25,
+              shadowRadius: 3.84,
+              elevation: 5,
           }}
         >
           <Text
@@ -58,6 +65,13 @@ const CSN = ({ navigation }) => {
               borderBottomRightRadius: 15,
               alignItems: "center",
               justifyContent: "center",
+              shadowOffset: {
+                width: 0,
+                height: 2,
+              },
+              shadowOpacity: 0.25,
+              shadowRadius: 3.84,
+              elevation: 5,
             }}
           >
             <Text
@@ -92,6 +106,13 @@ const CSN = ({ navigation }) => {
               justifyContent: "center",
               alignItems: "center",
               marginLeft: 20,
+              shadowOffset: {
+                width: 0,
+                height: 2,
+              },
+              shadowOpacity: 0.25,
+              shadowRadius: 3.84,
+              elevation: 5,
             }}
           >
             <Text style={{ color: "white", fontSize: 24, fontWeight: "bold" }}>
@@ -114,6 +135,13 @@ const CSN = ({ navigation }) => {
               borderBottomLeftRadius: 15,
               alignItems: "center",
               justifyContent: "center",
+              shadowOffset: {
+                width: 0,
+                height: 2,
+              },
+              shadowOpacity: 0.25,
+              shadowRadius: 3.84,
+              elevation: 5,
             }}
           >
             <Text
@@ -170,6 +198,13 @@ const CSN = ({ navigation }) => {
             borderBottomRightRadius: 15,
             alignItems: "center",
             justifyContent: "center",
+            shadowOffset: {
+                width: 0,
+                height: 2,
+              },
+              shadowOpacity: 0.25,
+              shadowRadius: 3.84,
+              elevation: 5,
           }}
         >
           <Text
@@ -196,6 +231,13 @@ const CSN = ({ navigation }) => {
               marginTop: 40,
               borderRadius: 15,
               justifyContent: "center",
+              shadowOffset: {
+                width: 0,
+                height: 2,
+              },
+              shadowOpacity: 0.25,
+              shadowRadius: 3.84,
+              elevation: 5,
             }}
           >
             <Text
