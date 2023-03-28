@@ -1,0 +1,798 @@
+[
+  {
+    "id": 0,
+    "type": "Engineering Entrance",
+    "exams": [
+      {
+        "id": 0,
+        "exam_name": "JEE",
+        "exam_description": "One of the most competitive examination onboard for Engineering",
+        "exam_score": 3000,
+        "exam_completion": 68,
+        "exam_dates": [
+          {
+            "exam_name": "JEE Mains 2023",
+            "exam_date": "30/03/2023",
+            "exam_description": "This is the first level of JEE Entrance"
+          },
+          {
+            "name": "JEE Advanced 2023",
+            "date": "30/04/2023",
+            "exam_description": "This is the first level of JEE Entrance"
+          }
+        ],
+        "mock_Tests": [
+          {
+            "test_name": "Mock Test 1",
+            "test_description": "Here are 10 questions to challenge your brain",
+            "test_questions": [
+              {
+                "id": 0,
+                "question": "question1",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question2",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question3",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question4",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question5",
+                "options": ["a", "b", "c", "d"]
+              }
+            ]
+          }
+        ],
+        "youtubeurls": [
+          {
+            "content_description": "This video gives information about concept1",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept2",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept3",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept4",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept5",
+            "link": "blahblah"
+          }
+        ],
+        "books": [
+          {
+            "name": "Book1",
+            "content_description": "This video gives information about concept1",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book2",
+            "content_description": "This video gives information about concept2",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book3",
+            "content_description": "This video gives information about concept3",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book4",
+            "content_description": "This video gives information about concept4",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book5",
+            "content_description": "This video gives information about concept5",
+            "link": "blahblah"
+          }
+        ],
+        "linkedinProfiles": [
+          {
+            "name": "Vincent",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "Jhonson",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "George",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "Harry",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "William",
+            "linkedin_profile_url": ""
+          }
+        ],
+        "one_to_one_convo": [
+          { "name": "Saina", "Description": "Udemy Content Creator" },
+          { "name": "Henry", "Description": "Data Scientist" },
+          { "name": "Henry", "Description": "Physics Professor" },
+          { "name": "Henry", "Description": "Senior Software Developer" },
+          { "name": "Henry", "Description": "Hardware Engineer" }
+        ]
+      },
+
+      {
+        "id": 1,
+        "exam_name": "GATE",
+        "exam_description": "One of the most competitive examination onboard for Engineering in Masters",
+        "exam_score": 1000,
+        "exam_completion": 70,
+        "exam_dates": [
+          {
+            "exam_name": "GATE 2023",
+            "exam_date": "30/03/2023",
+            "exam_description": "This is the first level of JEE Entrance"
+          },
+          {
+            "name": "GATE 2023",
+            "date": "30/04/2023",
+            "exam_description": "This is the first level of JEE Entrance"
+          }
+        ],
+        "mock_Tests": [
+          {
+            "test_name": "Mock Test 1",
+            "test_description": "Here are 10 questions to challenge your brain",
+            "test_questions": [
+              {
+                "id": 0,
+                "question": "question1",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question2",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question3",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question4",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question5",
+                "options": ["a", "b", "c", "d"]
+              }
+            ]
+          }
+        ],
+        "youtubeurls": [
+          {
+            "content_description": "This video gives information about concept1",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept2",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept3",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept4",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept5",
+            "link": "blahblah"
+          }
+        ],
+        "books": [
+          {
+            "name": "Book1",
+            "content_description": "This video gives information about concept1",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book2",
+            "content_description": "This video gives information about concept2",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book3",
+            "content_description": "This video gives information about concept3",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book4",
+            "content_description": "This video gives information about concept4",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book5",
+            "content_description": "This video gives information about concept5",
+            "link": "blahblah"
+          }
+        ],
+        "linkedinProfiles": [
+          {
+            "name": "Vincent",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "Jhonson",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "George",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "Harry",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "William",
+            "linkedin_profile_url": ""
+          }
+        ],
+        "one_to_one_convo": [
+          { "name": "Saina", "Description": "Udemy Content Creator" },
+          { "name": "Henry", "Description": "Data Scientist" },
+          { "name": "Henry", "Description": "Physics Professor" },
+          { "name": "Henry", "Description": "Senior Software Developer" },
+          { "name": "Henry", "Description": "Hardware Engineer" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "type": "Medical Entrance",
+    "exams": [
+      {
+        "id": 0,
+        "exam_name": "NEET",
+        "exam_description": "One of the most competitive examination onboard for Medical",
+        "exam_score": 3000,
+        "exam_completion": 68,
+        "exam_dates": [
+          {
+            "exam_name": "NEET 2023",
+            "exam_date": "30/03/2023",
+            "exam_description": "The results are to be announced soon"
+          }
+        ],
+        "mock_Tests": [
+          {
+            "test_name": "Mock Test 1",
+            "test_description": "Here are 10 questions to challenge your brain",
+            "test_questions": [
+              {
+                "id": 0,
+                "question": "question1",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question2",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question3",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question4",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question5",
+                "options": ["a", "b", "c", "d"]
+              }
+            ]
+          }
+        ],
+        "youtubeurls": [
+          {
+            "content_description": "This video gives information about concept1",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept2",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept3",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept4",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept5",
+            "link": "blahblah"
+          }
+        ],
+        "books": [
+          {
+            "name": "Book1",
+            "content_description": "This video gives information about concept1",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book2",
+            "content_description": "This video gives information about concept2",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book3",
+            "content_description": "This video gives information about concept3",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book4",
+            "content_description": "This video gives information about concept4",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book5",
+            "content_description": "This video gives information about concept5",
+            "link": "blahblah"
+          }
+        ],
+        "linkedinProfiles": [
+          {
+            "name": "Vincent",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "Jhonson",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "George",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "Harry",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "William",
+            "linkedin_profile_url": ""
+          }
+        ],
+        "one_to_one_convo": [
+          { "name": "Saina", "Description": "Udemy Content Creator" },
+          { "name": "Henry", "Description": "Data Scientist" },
+          { "name": "Henry", "Description": "Physics Professor" },
+          { "name": "Henry", "Description": "Senior Software Developer" },
+          { "name": "Henry", "Description": "Hardware Engineer" }
+        ]
+      },
+
+      {
+        "id": 1,
+        "exam_name": "NEET PG",
+        "exam_description": "One of the most competitive examination onboard for Engineering in Masters",
+        "exam_score": 1000,
+        "exam_completion": 70,
+        "exam_dates": [
+          {
+            "exam_name": "NEET PG 2023",
+            "exam_date": "30/03/2023",
+            "exam_description": "This is the first level of JEE Entrance"
+          },
+          {
+            "name": "NEET PG 2023",
+            "date": "30/04/2023",
+            "exam_description": "This is the first level of JEE Entrance"
+          }
+        ],
+        "mock_Tests": [
+          {
+            "test_name": "Mock Test 1",
+            "test_description": "Here are 10 questions to challenge your brain",
+            "test_questions": [
+              {
+                "id": 0,
+                "question": "question1",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question2",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question3",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question4",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question5",
+                "options": ["a", "b", "c", "d"]
+              }
+            ]
+          }
+        ],
+        "youtubeurls": [
+          {
+            "content_description": "This video gives information about concept1",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept2",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept3",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept4",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept5",
+            "link": "blahblah"
+          }
+        ],
+        "books": [
+          {
+            "name": "Book1",
+            "content_description": "This video gives information about concept1",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book2",
+            "content_description": "This video gives information about concept2",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book3",
+            "content_description": "This video gives information about concept3",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book4",
+            "content_description": "This video gives information about concept4",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book5",
+            "content_description": "This video gives information about concept5",
+            "link": "blahblah"
+          }
+        ],
+        "linkedinProfiles": [
+          {
+            "name": "Vincent",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "Jhonson",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "George",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "Harry",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "William",
+            "linkedin_profile_url": ""
+          }
+        ],
+        "one_to_one_convo": [
+          { "name": "Saina", "Description": "Udemy Content Creator" },
+          { "name": "Henry", "Description": "Cardiologists" },
+          { "name": "Henry", "Description": "Pulmonologists" },
+          { "name": "Henry", "Description": "Oncologists" },
+          { "name": "Henry", "Description": "Gastroentrologists" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "Government Exams",
+    "exams": [
+      {
+        "id": 0,
+        "exam_name": "UPSC",
+        "exam_description": "Most Sought after Government Exam in India",
+        "exam_score": 3000,
+        "exam_completion": 68,
+        "exam_dates": [
+          {
+            "exam_name": "UPSC Prelims",
+            "exam_date": "30/03/2023",
+            "exam_description": "The UPSC mains results are to be announced on April"
+          },
+          {
+            "exam_name": "UPSC Mains",
+            "exam_date": "30/03/2023",
+            "exam_description": "The UPSC Mains results are to be announced on April"
+          }
+        ],
+        "mock_Tests": [
+          {
+            "test_name": "Mock Test 1",
+            "test_description": "Here are 10 questions to challenge your brain",
+            "test_questions": [
+              {
+                "id": 0,
+                "question": "question1",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question2",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question3",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question4",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question5",
+                "options": ["a", "b", "c", "d"]
+              }
+            ]
+          }
+        ],
+        "youtubeurls": [
+          {
+            "content_description": "This video gives information about concept1",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept2",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept3",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept4",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept5",
+            "link": "blahblah"
+          }
+        ],
+        "books": [
+          {
+            "name": "Book1",
+            "content_description": "This video gives information about concept1",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book2",
+            "content_description": "This video gives information about concept2",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book3",
+            "content_description": "This video gives information about concept3",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book4",
+            "content_description": "This video gives information about concept4",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book5",
+            "content_description": "This video gives information about concept5",
+            "link": "blahblah"
+          }
+        ],
+        "linkedinProfiles": [
+          {
+            "name": "Vincent",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "Jhonson",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "George",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "Harry",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "William",
+            "linkedin_profile_url": ""
+          }
+        ],
+        "one_to_one_convo": [
+          { "name": "Saina", "Description": "Udemy Content Creator" },
+          { "name": "Henry", "Description": "Data Scientist" },
+          { "name": "Henry", "Description": "Physics Professor" },
+          { "name": "Henry", "Description": "Senior Software Developer" },
+          { "name": "Henry", "Description": "Hardware Engineer" }
+        ]
+      },
+
+      {
+        "id": 1,
+        "exam_name": "TNPSC",
+        "exam_description": "State Level Government exam (Tamil Nadu), for posts like Deputy Collector!",
+        "exam_score": 1000,
+        "exam_completion": 70,
+        "exam_dates": [
+          {
+            "exam_name": "TNPSC Group 1 2023",
+            "exam_date": "30/03/2023",
+            "exam_description": "This is the first level of JEE Entrance"
+          },
+          {
+            "name": "TNPSC Group 2 2023",
+            "date": "30/04/2023",
+            "exam_description": "This is the first level of JEE Entrance"
+          }
+        ],
+        "mock_Tests": [
+          {
+            "test_name": "Mock Test 1",
+            "test_description": "Here are 10 questions to challenge your brain",
+            "test_questions": [
+              {
+                "id": 0,
+                "question": "question1",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question2",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question3",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question4",
+                "options": ["a", "b", "c", "d"]
+              },
+              {
+                "id": 0,
+                "question": "question5",
+                "options": ["a", "b", "c", "d"]
+              }
+            ]
+          }
+        ],
+        "youtubeurls": [
+          {
+            "content_description": "This video gives information about concept1",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept2",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept3",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept4",
+            "link": "blahblah"
+          },
+          {
+            "content_description": "This video gives information about concept5",
+            "link": "blahblah"
+          }
+        ],
+        "books": [
+          {
+            "name": "Book1",
+            "content_description": "This video gives information about concept1",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book2",
+            "content_description": "This video gives information about concept2",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book3",
+            "content_description": "This video gives information about concept3",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book4",
+            "content_description": "This video gives information about concept4",
+            "link": "blahblah"
+          },
+          {
+            "name": "Book5",
+            "content_description": "This video gives information about concept5",
+            "link": "blahblah"
+          }
+        ],
+        "linkedinProfiles": [
+          {
+            "name": "Vincent",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "Jhonson",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "George",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "Harry",
+            "linkedin_profile_url": ""
+          },
+          {
+            "name": "William",
+            "linkedin_profile_url": ""
+          }
+        ],
+        "one_to_one_convo": [
+          { "name": "Saina", "Description": "Udemy Content Creator" },
+          { "name": "Henry", "Description": "Cardiologists" },
+          { "name": "Henry", "Description": "Pulmonologists" },
+          { "name": "Henry", "Description": "Oncologists" },
+          { "name": "Henry", "Description": "Gastroentrologists" }
+        ]
+      }
+    ]
+  }
+]
