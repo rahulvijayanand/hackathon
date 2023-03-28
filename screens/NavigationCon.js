@@ -41,12 +41,12 @@ const NavigationCon = () => {
           height: 60,
           borderTopLeftRadius: 20,
           borderTopRightRadius: 20,
-          backgroundColor: 'darkred',
+          backgroundColor: '#DB4437',
           zIndex:5,
         },
         headerShown: false,
-        activeTintColor: "blue",
-        inactiveTintColor: "gray",
+        activeTintColor: "#4285F4",
+        inactiveTintColor: "#000",
         tabBarIcon: ({ color, size }) => {
           let iconName;
 
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   circleButton: {
-    backgroundColor: "blue",
+    backgroundColor: "#4285F4",
     borderRadius: 50,
     height: 80,
     width: 80,
