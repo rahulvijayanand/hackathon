@@ -120,6 +120,8 @@ const Carousel = () => {
               shadowOpacity: 0.25,
               shadowRadius: 3.84,
               elevation: 5,
+              borderWidth:2,
+              borderColor:'w'
             }}
           >
             <Image style={styles.image} source={item.image} />
