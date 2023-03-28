@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  View,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
-  ScrollView,
-} from "react-native";
+import { View, Text, StyleSheet, Pressable, ScrollView } from "react-native";
 import Search from "../components/searchbar";
 import CardSmall from "../components/CardSmall";
 import data from "../examdata.json";
@@ -25,12 +19,15 @@ function CN({route,navigation}) {
       </View>
       <View style={{ marginTop: 10 }}>
         {data[id].exams.map((item)=>(
+          <Pressable onPress={() => navigation.navigate("CSN")}>
           <CardSmall
-          title={item.exam_name}
-          description={item.exam_description}
-          backgroundColor={item.color}
-        />
+            title={item.exam_name}
+            description={item.exam_description}
+            backgroundColor={item.color}
+          />
+           </Pressable>
         ))}
+       
       </View>
       <View style={{ marginBottom: 30 }}></View>
     </ScrollView>
