@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { useNavigation } from "@react-navigation/native";
 import { Feather } from "@expo/vector-icons";
-import HomeStack from "./HomeStack"
+import HomeStack from "./HomeStack";
 import SearchScreen from "./SearchScreen";
 import ProfileScreen from "./ProfileScreen";
 import NotificationsScreen from "./NotificationsScreen";
@@ -29,7 +29,7 @@ const NavigationCon = () => {
         },
         headerShown: false,
         activeTintColor: "#ffffff",
-        inactiveTintColor: "white",
+
         tabBarIcon: ({ color, size }) => {
           let iconName;
 
@@ -45,7 +45,7 @@ const NavigationCon = () => {
             iconName = "user";
           }
 
-          return <Feather name={iconName} size={size} color={color} />;
+          return <Feather name={iconName} size={size} color={"white"} />;
         },
       })}
     >

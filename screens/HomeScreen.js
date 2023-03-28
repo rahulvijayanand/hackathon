@@ -4,7 +4,7 @@ import Slider from "../components/Slider";
 import Card from "../components/Card";
 import Search from "../components/searchbar";
 import data from "../examdata.json";
-export default function HomeScreen({navigation}) {
+export default function HomeScreen({ navigation }) {
   return (
     <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
       <View>
