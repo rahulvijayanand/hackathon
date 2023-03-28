@@ -17,14 +17,6 @@ export default function Hom() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    position: "relative", 
-    zIndex: 3,
-  },
-  gradient: {
-    flex: 1,
-  },
-  overlay: {
-    ...StyleSheet.absoluteFillObject,
-    backgroundColor: "rgba(255, 255, 255, 0.9)",
+    
   },
 });
