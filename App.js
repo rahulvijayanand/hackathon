@@ -4,6 +4,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { NavigationContainer } from "@react-navigation/native";
 import NavigationCon from "./screens/NavigationCon";
 
+
 const App = () => {
   return (
     <NavigationContainer>
