@@ -65,73 +65,73 @@
         ],
         "youtubeurls": [
           {
-            "content_description": "This video gives information about concept1",
-            "link": "blahblah"
+            "content_description": "Surface Tension",
+            "link": "https://youtu.be/IjD5e33FnP0"
           },
           {
-            "content_description": "This video gives information about concept2",
-            "link": "blahblah"
+            "content_description": "Organic Chemistry",
+            "link": "https://www.youtube.com/live/S4F67wZnmt4?feature=share"
           },
           {
-            "content_description": "This video gives information about concept3",
-            "link": "blahblah"
+            "content_description": "JEE chemistry",
+            "link": "https://youtu.be/bAN1dmf_5jA"
           },
           {
-            "content_description": "This video gives information about concept4",
-            "link": "blahblah"
+            "content_description": "Math Identities",
+            "link": "https://www.youtube.com/live/-eYcaoA2uj4?feature=share"
           },
           {
-            "content_description": "This video gives information about concept5",
-            "link": "blahblah"
+            "content_description": "Modern Physics",
+            "link": "https://www.youtube.com/live/vP9LzR8zupE?feature=share"
           }
         ],
         "books": [
           {
-            "name": "Book1",
-            "content_description": "This video gives information about concept1",
-            "link": "blahblah"
+            "name": "JEE Books1",
+            "content_description": "This video gives information about Book1",
+            "link": "https://www.amazon.in/s?k=iit+jee+books&i=stripbooks&adgrpid=65778291104&ext_vrnc=hi&hvadid=596895281676&hvdev=m&hvlocphy=9061917&hvnetw=g&hvqmt=b&hvrand=11842754577468340723&hvtargid=kwd-299817037085&hydadcr=7487_2261283&tag=googinhydrmob-21&ref=pd_sl_3y0hjz4o14_b"
           },
           {
             "name": "Book2",
             "content_description": "This video gives information about concept2",
-            "link": "blahblah"
+            "link": "https://www.amazon.in/s?k=iit+jee+books&i=stripbooks&adgrpid=65778291104&ext_vrnc=hi&hvadid=596895281676&hvdev=m&hvlocphy=9061917&hvnetw=g&hvqmt=b&hvrand=11842754577468340723&hvtargid=kwd-299817037085&hydadcr=7487_2261283&tag=googinhydrmob-21&ref=pd_sl_3y0hjz4o14_b"
           },
           {
             "name": "Book3",
             "content_description": "This video gives information about concept3",
-            "link": "blahblah"
+            "link": "https://www.amazon.in/s?k=iit+jee+books&i=stripbooks&adgrpid=65778291104&ext_vrnc=hi&hvadid=596895281676&hvdev=m&hvlocphy=9061917&hvnetw=g&hvqmt=b&hvrand=11842754577468340723&hvtargid=kwd-299817037085&hydadcr=7487_2261283&tag=googinhydrmob-21&ref=pd_sl_3y0hjz4o14_b"
           },
           {
             "name": "Book4",
             "content_description": "This video gives information about concept4",
-            "link": "blahblah"
+            "link": "https://www.amazon.in/s?k=iit+jee+books&i=stripbooks&adgrpid=65778291104&ext_vrnc=hi&hvadid=596895281676&hvdev=m&hvlocphy=9061917&hvnetw=g&hvqmt=b&hvrand=11842754577468340723&hvtargid=kwd-299817037085&hydadcr=7487_2261283&tag=googinhydrmob-21&ref=pd_sl_3y0hjz4o14_b"
           },
           {
             "name": "Book5",
             "content_description": "This video gives information about concept5",
-            "link": "blahblah"
+            "link": "https://www.amazon.in/s?k=iit+jee+books&i=stripbooks&adgrpid=65778291104&ext_vrnc=hi&hvadid=596895281676&hvdev=m&hvlocphy=9061917&hvnetw=g&hvqmt=b&hvrand=11842754577468340723&hvtargid=kwd-299817037085&hydadcr=7487_2261283&tag=googinhydrmob-21&ref=pd_sl_3y0hjz4o14_b"
           }
         ],
         "linkedinProfiles": [
           {
             "name": "Vincent",
-            "linkedin_profile_url": ""
+            "linkedin_profile_url": "https://www.linkedin.com/in/satyaprakash-sharma-631938a0"
           },
           {
             "name": "Jhonson",
-            "linkedin_profile_url": ""
+            "linkedin_profile_url": "https://www.linkedin.com/in/ajay-sahu-66962a1a4"
           },
           {
             "name": "George",
-            "linkedin_profile_url": ""
+            "linkedin_profile_url": "https://www.linkedin.com/in/mayank-mahajan-501693223"
           },
           {
             "name": "Harry",
-            "linkedin_profile_url": ""
+            "linkedin_profile_url": "https://www.linkedin.com/in/kaviya-baskaran-085a1a1a8"
           },
           {
             "name": "William",
-            "linkedin_profile_url": ""
+            "linkedin_profile_url": "https://www.linkedin.com/in/durgesh-nandan-31ba4253"
           }
         ],
         "one_to_one_convo": [

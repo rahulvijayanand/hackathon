@@ -80,7 +80,7 @@ const NavigationCon = () => {
       }}
     >
       <Tab.Screen name="Home" component={HomeStack} />
-      <Tab.Screen name="Settings" component={Login} />
+      <Tab.Screen name="Settings" component={SettingsScreen} />
       <Tab.Screen name="Profile" component={ProfileScreen} />
       <Tab.Screen name="Search" component={SearchScreen} />
       <Tab.Screen name="Notifications" component={NotificationsScreen} />

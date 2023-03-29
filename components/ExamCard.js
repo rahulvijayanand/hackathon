@@ -44,9 +44,6 @@ const Examcard = ({ title, image, description, backgroundColor }) => {
             <Ionicons name="ios-arrow-forward" size={18} color="black" style={{marginTop:5}}/>
           </View>
         </View>
-        <View style={styles.button}>
-          <Ionicons name="ios-arrow-forward" size={24} color="black" />
-        </View>
       </View>
     </ImageBackground>
   );

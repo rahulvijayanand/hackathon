@@ -2,8 +2,9 @@ import React from "react";
 import { View, Text, StyleSheet, Pressable, ScrollView } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import data from "../examdata.json";
-
+import CallFunction from "../components/CallFunction";
 const CSN = ({ route, navigation }) => {
+  const call = "9789988477";
   const { typeid, examid } = route.params;
   return (
     <View style={styles.container}>
@@ -211,7 +212,9 @@ const CSN = ({ route, navigation }) => {
             shadowRadius: 3.84,
             elevation: 5,
           }}
-          onPress={() => navigation.navigate("RF")}
+          onPress={() =>
+            navigation.navigate("RF", { tid: typeid, eid: examid })
+          }
         >
           <Text
             style={{
@@ -228,14 +231,15 @@ const CSN = ({ route, navigation }) => {
           </View>
         </Pressable>
 
-        <View style={{ alignItems: "center" }}>
+        <View style={{ marginLeft: "auto" }}>
           <View
             style={{
-              height: 110,
-              width: 330,
+              height: 180,
+              width: 280,
               backgroundColor: "#DB4437",
               marginTop: 40,
-              borderRadius: 15,
+              borderTopLeftRadius: 15,
+              borderBottomLeftRadius: 15,
               justifyContent: "center",
               shadowOffset: {
                 width: 0,
@@ -258,6 +262,9 @@ const CSN = ({ route, navigation }) => {
             >
               ONE-ONE CONVO
             </Text>
+            <View style={{marginLeft:30}}>
+              <CallFunction number={call} />
+            </View>
           </View>
         </View>
         <View style={{ marginBottom: 20 }}></View>
