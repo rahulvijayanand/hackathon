@@ -9,7 +9,7 @@ import {
 } from "react-native";
 
 const MK = ({ navigation,route }) => {
-  const {tid,eid}=route.params;
+  const {tid,eid,sc}=route.params;
   return (
     <View style={styles.container}>
       <View
@@ -69,7 +69,7 @@ const MK = ({ navigation,route }) => {
             I read the instructions and agree to it
           </Text>
         </View>
-        <TouchableOpacity onPress={() => navigation.navigate("MKT",{tyid:tid,exid:eid})}>
+        <TouchableOpacity onPress={() => navigation.navigate("MKT",{tyid:tid,exid:eid,sco:sc})}>
           <View
             style={{
               backgroundColor: "#F4B400",

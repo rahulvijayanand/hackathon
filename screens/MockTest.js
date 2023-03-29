@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect,useContext } from "react";
 import { View, StyleSheet } from "react-native";
 import { Text, Button, Checkbox } from "react-native-paper";
 import data from "../examdata.json";
-
+import { scorecontext } from "../components/Context";
 const questions = [
   {
     question: "What is the capital of India?",
@@ -35,7 +35,12 @@ const TestPage = ({ navigation,route }) => {
   const [questionIndex, setQuestionIndex] = useState(0);
   const [selectedOptionIndex, setSelectedOptionIndex] = useState(-1);
   const [timeLeft, setTimeLeft] = useState(10);
-  const {tyid,exid}=route.params;
+  const {tyid,exid,sco}=route.params;
+  const [isscr,setscr]=useState(sco);
+  const {
+    Score
+  } = useContext(scorecontext);
+  const {isscore,setscore}=useContext(Score);
   useEffect(() => {
     if (timeLeft === 0) {
       handleNextQuestion();
@@ -57,6 +62,9 @@ const TestPage = ({ navigation,route }) => {
       alert("Test completed!");
     } else {
       setQuestionIndex(questionIndex + 1);
+      if(selectedOptionIndex==0){
+        setscr(isscore+2);
+      }
       setSelectedOptionIndex(-1);
       setTimeLeft(10);
     }

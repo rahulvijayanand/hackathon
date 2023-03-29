@@ -1,10 +1,11 @@
-import React from "react";
+import {React,useState,useContext} from "react";
 import { View, Text, StyleSheet, Pressable, ScrollView } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import data from "../examdata.json";
-
+import { scorecontext } from "../components/Context";
 const CSN = ({ route, navigation }) => {
   const { typeid, examid } = route.params;
+  const {isscore,setscore}=useContext(scorecontext);
   return (
     <View style={styles.container}>
       <View
@@ -53,7 +54,7 @@ const CSN = ({ route, navigation }) => {
               fontSize: 22,
             }}
           >
-            {data[typeid].exams[examid].exam_score}
+            {isscore}
           </Text>
         </View>
       </View>
@@ -186,7 +187,7 @@ const CSN = ({ route, navigation }) => {
                 shadowRadius: 3.84,
                 elevation: 5,
               }}
-              onPress={() => navigation.navigate("MK",{tid:typeid,eid:examid})}
+              onPress={() => navigation.navigate("MK",{tid:typeid,eid:examid,sc:isscore})}
             >
               <Text style={{ color: "#F4B400", fontSize: 21 }}>Take Test</Text>
             </Pressable>
