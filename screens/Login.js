@@ -33,7 +33,7 @@ const Login = () => {
   };
 
   return (
-    <View>
+    <View style={{ flex: 1 }}>
       <Circle backgroundColor="red" style={styles.customStyle1} />
       <View style={styles.container}>
         <Text style={styles.logo}>LOG IN</Text>

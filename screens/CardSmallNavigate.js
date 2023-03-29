@@ -186,7 +186,7 @@ const CSN = ({ route, navigation }) => {
                 shadowRadius: 3.84,
                 elevation: 5,
               }}
-              onPress={() => navigation.navigate("MK")}
+              onPress={() => navigation.navigate("MK",{tid:typeid,eid:examid})}
             >
               <Text style={{ color: "#F4B400", fontSize: 21 }}>Take Test</Text>
             </Pressable>
@@ -228,14 +228,15 @@ const CSN = ({ route, navigation }) => {
           </View>
         </Pressable>
 
-        <View style={{ alignItems: "center" }}>
+        <View style={{ marginLeft: "auto" }}>
           <View
             style={{
-              height: 110,
-              width: 330,
+              height: 180,
+              width: 280,
               backgroundColor: "#DB4437",
               marginTop: 40,
-              borderRadius: 15,
+              borderTopLeftRadius: 15,
+              borderBottomLeftRadius: 15,
               justifyContent: "center",
               shadowOffset: {
                 width: 0,

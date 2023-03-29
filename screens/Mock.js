@@ -8,7 +8,8 @@ import {
   ScrollView,
 } from "react-native";
 
-const MK = () => {
+const MK = ({ navigation,route }) => {
+  const {tid,eid}=route.params;
   return (
     <View style={styles.container}>
       <View
@@ -68,7 +69,7 @@ const MK = () => {
             I read the instructions and agree to it
           </Text>
         </View>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("MKT",{tyid:tid,exid:eid})}>
           <View
             style={{
               backgroundColor: "#F4B400",
