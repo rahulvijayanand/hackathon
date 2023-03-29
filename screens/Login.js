@@ -6,6 +6,7 @@ import {
   Text,
   TextInput,
   TouchableOpacity,
+  StatusBar,
 } from "react-native";
 import Circle from "../components/Circle";
 
@@ -33,42 +34,43 @@ const Login = () => {
   };
 
   return (
-    <View style={{ flex: 1 }}>
-      <Circle backgroundColor="red" style={styles.customStyle1} />
-      <View style={styles.container}>
-        <Text style={styles.logo}>LOG IN</Text>
-        <View style={{ flexDirection: "row" }}>
-          <Text style={{ marginBottom: 60 }}>New to our app?</Text>
-          <Pressable style={{}}>
-            <Text style={{ color: "#0F9D58" }}> Sign up for free</Text>
-          </Pressable>
-        </View>
-        <View style={styles.inputView}>
-          <TextInput
-            style={styles.inputText}
-            placeholder="EMAIL ID"
-            placeholderTextColor="#003f5c"
-            onChangeText={handleEmailChange}
-            value={email}
-          />
-        </View>
-        <View style={styles.inputView}>
-          <TextInput
-            secureTextEntry
-            style={styles.inputText}
-            placeholder="PASSWORD"
-            placeholderTextColor="#003f5c"
-            onChangeText={handlePasswordChange}
-            value={password}
-          />
-        </View>
-        <Pressable>
-          <Text style={{ color: "#4285F4" }}>Forgot password?</Text>
+    <View style={styles.container}>
+      <Circle backgroundColor="#DB4437" style={styles.customStyle1} />
+      <Circle backgroundColor="#F4B400" style={styles.customStyle2} />
+      <Circle backgroundColor="#4285F4" style={styles.customStyle3} />
+      <Circle backgroundColor="#0F9D58" style={styles.customStyle4} />
+      <Text style={styles.logo}>LOG IN</Text>
+      <View style={{ flexDirection: "row", marginBottom: 60 }}>
+        <Text>New to our app?</Text>
+        <Pressable style={{}}>
+          <Text style={{ color: "#0F9D58" }}> Sign up for free</Text>
         </Pressable>
-        <TouchableOpacity style={styles.loginBtn} onPress={handleLogin}>
-          <Text style={styles.loginText}>SIGN IN</Text>
-        </TouchableOpacity>
       </View>
+      <View style={styles.inputView}>
+        <TextInput
+          style={styles.inputText}
+          placeholder="EMAIL ID"
+          placeholderTextColor="#003f5c"
+          onChangeText={handleEmailChange}
+          value={email}
+        />
+      </View>
+      <View style={styles.inputView}>
+        <TextInput
+          secureTextEntry
+          style={styles.inputText}
+          placeholder="PASSWORD"
+          placeholderTextColor="#003f5c"
+          onChangeText={handlePasswordChange}
+          value={password}
+        />
+      </View>
+      <Pressable>
+        <Text style={{ color: "#4285F4" }}>Forgot password?</Text>
+      </Pressable>
+      <TouchableOpacity style={styles.loginBtn} onPress={handleLogin}>
+        <Text style={styles.loginText}>SIGN IN</Text>
+      </TouchableOpacity>
     </View>
   );
 };
@@ -78,15 +80,16 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#fff",
     justifyContent: "center",
-    paddingLeft: 20,
+    paddingLeft:30
   },
   logo: {
     fontWeight: "bold",
     fontSize: 48,
+  
   },
   inputView: {
     width: 270,
-    backgroundColor: "white",
+    backgroundColor: "transparent",
     height: 50,
     marginBottom: 20,
     justifyContent: "center",
@@ -95,7 +98,7 @@ const styles = StyleSheet.create({
   inputText: {
     height: 50,
     width: 270,
-    backgroundColor: "white",
+    backgroundColor: "transparent",
   },
   loginBtn: {
     width: 230,
@@ -114,6 +117,23 @@ const styles = StyleSheet.create({
   },
   customStyle1: {
     position: "absolute",
+    top: -70,
+    left: -70,
+  },
+  customStyle2: {
+    position: "absolute",
+    top: 100,
+    right: -110,
+  },
+  customStyle3: {
+    position: "absolute",
+    bottom: 30,
+    left: -140,
+  },
+  customStyle4: {
+    position: "absolute",
+    bottom: -70,
+    right: -120,
   },
 });
 

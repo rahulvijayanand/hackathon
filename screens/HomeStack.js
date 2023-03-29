@@ -1,4 +1,4 @@
-import {React,useState,createContext} from "react";
+import React, { useState, createContext } from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import HomeScreen from "./HomeScreen";
 import CardNavigation from "./CardNavigate";
@@ -10,10 +10,10 @@ import { NavigationContainer } from "@react-navigation/native";
 
 const Stack = createStackNavigator();
 
-
+const scorecontext=createContext({});
 function HomeStack() {
   const [isscore,setscrore]=useState(3000);
-const scorecontext=createContext({isscore,setscrore});
+
   return (
     <scorecontext.Provider value={{isscore,setscrore}}>
     <Stack.Navigator

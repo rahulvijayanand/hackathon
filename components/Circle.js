@@ -7,9 +7,9 @@ const Circle = ({ backgroundColor, style }) => {
 
 const styles = StyleSheet.create({
   circle: {
-    width: 166,
-    height: 166,
-    borderRadius: 83,
+    width: 200,
+    height: 200,
+    borderRadius: 100,
   },
 });
 
