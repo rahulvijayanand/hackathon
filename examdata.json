@@ -1,19 +1,23 @@
 [
   {
     "id": 0,
-    "type": "Engineering Entrance",
-    "image":"https://img.freepik.com/free-photo/manager-supervisor-worker-discussing-about-production-results-new-strategy-factory-industrial-hall_342744-112.jpg?w=1060&t=st=1679998060~exp=1679998660~hmac=8fd76beb8116078247b0984e628f8b171522ca3e9f7029ad0e5b688d24a4571e",
-    "description":"This module contains all the Engineering Entrance Exams",
-    "color":"#4285F4",
+    "type": "Engineering Entrances",
+    "image": "https://img.freepik.com/free-photo/manager-supervisor-worker-discussing-about-production-results-new-strategy-factory-industrial-hall_342744-112.jpg?w=1060&t=st=1679998060~exp=1679998660~hmac=8fd76beb8116078247b0984e628f8b171522ca3e9f7029ad0e5b688d24a4571e",
+    "description": "This module contains all the Engineering Entrance Exams",
+    "color": "#4285F4",
     "exams": [
       {
         "id": 0,
-        "exam_name": "JEE",
+        "exam_name": "JEE Mains",
         "exam_description": "One of the most competitive examination onboard for Engineering",
-        "color":"#0F9D58",
+        "color": "#0F9D58",
         "exam_score": 3000,
         "exam_completion": 68,
-        "daily_quest":{"question":"Here is the daily quest question for JEE Mains","options":["Option a","Option b","Option c","Option d"]},
+        "daily_quest": {
+          "question": "Here is the daily quest question for JEE Mains",
+          "options": ["Option a", "Option b", "Option c", "Option d"]
+        },
+        "Streak": 7,
         "exam_dates": [
           {
             "exam_name": "JEE Mains 2023",
@@ -143,10 +147,14 @@
         "id": 1,
         "exam_name": "GATE",
         "exam_description": "One of the most competitive examination onboard for Engineering in Masters",
-        "color":"#F4B400",
+        "color": "#F4B400",
         "exam_score": 1000,
         "exam_completion": 70,
-        "daily_quest":{"question":"Here is the daily quest question for GATE","options":["Option a","Option b","Option c","Option d"]},
+        "daily_quest": {
+          "question": "Here is the daily quest question for GATE",
+          "options": ["Option a", "Option b", "Option c", "Option d"]
+        },
+        "Streak": 8,
         "exam_dates": [
           {
             "exam_name": "GATE 2023",
@@ -275,10 +283,14 @@
         "id": 2,
         "exam_name": "BITSAT",
         "exam_description": "Wanna get into BITS Pilani? \nThis is your way!",
-        "color":"#DB4437",
+        "color": "#DB4437",
         "exam_score": 2000,
         "exam_completion": 70,
-        "daily_quest":{"question":"Here is the daily quest question for BITSAT","options":["Option a","Option b","Option c","Option d"]},
+        "daily_quest": {
+          "question": "Here is the daily quest question for BITSAT",
+          "options": ["Option a", "Option b", "Option c", "Option d"]
+        },
+        "Streak": 9,
         "exam_dates": [
           {
             "exam_name": "BITSAT 2023",
@@ -407,19 +419,23 @@
   },
   {
     "id": 1,
-    "type": "Medical Entrance",
-    "description":"This module contains all the Medical Entrance Exams",
-    "image":"https://img.lovepik.com/photo/50054/5917.jpg_wh860.jpg",
-    "color":"#F4B400",
+    "type": "Medical Entrances",
+    "description": "This module contains all the Medical Entrance Exams",
+    "image": "https://img.lovepik.com/photo/50054/5917.jpg_wh860.jpg",
+    "color": "#F4B400",
     "exams": [
       {
         "id": 0,
         "exam_name": "NEET",
         "exam_description": "One of the most competitive examination onboard for Medical",
-        "color":"#0F9D58",
+        "color": "#0F9D58",
         "exam_score": 3000,
         "exam_completion": 68,
-        "daily_quest":{"question":"Here is the daily quest question for NEET","options":["Option a","Option b","Option c","Option d"]},
+        "daily_quest": {
+          "question": "Here is the daily quest question for NEET",
+          "options": ["Option a", "Option b", "Option c", "Option d"]
+        },
+        "Streak": 10,
         "exam_dates": [
           {
             "exam_name": "NEET 2023",
@@ -543,11 +559,15 @@
       {
         "id": 1,
         "exam_name": "NEET PG",
-        "exam_description": "One of the most competitive examination onboard for Engineering in Masters",
-        "color":"#F4B400",
+        "exam_description": "One of the most competitive examination onboard for Medical in PG",
+        "color": "#F4B400",
         "exam_score": 1000,
         "exam_completion": 70,
-        "daily_quest":{"question":"Here is the daily quest question for NEET PG","options":["Option a","Option b","Option c","Option d"]},
+        "daily_quest": {
+          "question": "Here is the daily quest question for NEET PG",
+          "options": ["Option a", "Option b", "Option c", "Option d"]
+        },
+        "Streak": 11,
         "exam_dates": [
           {
             "exam_name": "NEET PG 2023",
@@ -677,18 +697,22 @@
   {
     "id": 2,
     "type": "Government Exams",
-    "description":"This module contains all the Government Entrance Exams",
+    "description": "This module contains all the Government Entrance Exams",
     "image": "https://static1.shine.com/l/m/images/blog/government-jobs.jpg",
-    "color":"#0F9D58",
+    "color": "#0F9D58",
     "exams": [
       {
         "id": 0,
         "exam_name": "UPSC",
         "exam_description": "Most Sought after Government Exam in India",
-        "color":"#4285F4",
+        "color": "#4285F4",
         "exam_score": 3000,
         "exam_completion": 68,
-        "daily_quest":{"question":"Here is the daily quest question for UPSC","options":["Option a","Option b","Option c","Option d"]},
+        "daily_quest": {
+          "question": "Here is the daily quest question for UPSC",
+          "options": ["Option a", "Option b", "Option c", "Option d"]
+        },
+        "Streak": 12,
         "exam_dates": [
           {
             "exam_name": "UPSC Prelims",
@@ -818,10 +842,14 @@
         "id": 1,
         "exam_name": "TNPSC",
         "exam_description": "State Level Government exam (Tamil Nadu), for posts like Deputy Collector!",
-        "color":"#F4B400",
+        "color": "#F4B400",
         "exam_score": 1000,
         "exam_completion": 70,
-        "daily_quest":{"question":"Here is the daily quest question for TNPSC","options":["Option a","Option b","Option c","Option d"]},
+        "daily_quest": {
+          "question": "Here is the daily quest question for TNPSC",
+          "options": ["Option a", "Option b", "Option c", "Option d"]
+        },
+        "Streak": 13,
         "exam_dates": [
           {
             "exam_name": "TNPSC Group 1 2023",

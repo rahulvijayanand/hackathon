@@ -1,8 +1,10 @@
 import React from "react";
-import { View, Text, StyleSheet, Pressable, ScrollView, TouchableOpacity } from "react-native";
+import { View, Text, StyleSheet, Pressable, ScrollView } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
+import data from "../examdata.json";
 
-const CSN = ({ navigation }) => {
+const CSN = ({ route, navigation }) => {
+  const { typeid, examid } = route.params;
   return (
     <View style={styles.container}>
       <View
@@ -12,7 +14,9 @@ const CSN = ({ navigation }) => {
           marginTop: 40,
         }}
       >
-        <Text style={{ fontSize: 24, fontWeight: "bold" }}>JEE MAINS</Text>
+        <Text style={{ fontSize: 24, fontWeight: "bold" }}>
+          {data[typeid].exams[examid].exam_name}
+        </Text>
         <View
           style={{
             height: 70,
@@ -49,7 +53,7 @@ const CSN = ({ navigation }) => {
               fontSize: 22,
             }}
           >
-            3000
+            {data[typeid].exams[examid].exam_score}
           </Text>
         </View>
       </View>
@@ -116,7 +120,7 @@ const CSN = ({ navigation }) => {
             }}
           >
             <Text style={{ color: "white", fontSize: 24, fontWeight: "bold" }}>
-              7
+              {data[typeid].exams[examid].Streak}
             </Text>
             <Text style={{ justifyContent: "flex-end", color: "white" }}>
               Streak
@@ -165,7 +169,7 @@ const CSN = ({ navigation }) => {
             >
               Attend the Mock Test to test yourself
             </Text>
-            <TouchableOpacity
+            <Pressable
               style={{
                 marginTop: 10,
                 backgroundColor: "white",
@@ -185,7 +189,7 @@ const CSN = ({ navigation }) => {
               onPress={() => navigation.navigate("MK")}
             >
               <Text style={{ color: "#F4B400", fontSize: 21 }}>Take Test</Text>
-            </TouchableOpacity>
+            </Pressable>
           </View>
         </View>
 
@@ -224,15 +228,14 @@ const CSN = ({ navigation }) => {
           </View>
         </Pressable>
 
-        <View style={{ marginLeft: "auto" }}>
+        <View style={{ alignItems: "center" }}>
           <View
             style={{
-              height: 180,
-              width: 280,
+              height: 110,
+              width: 330,
               backgroundColor: "#DB4437",
               marginTop: 40,
-              borderTopLeftRadius: 15,
-              borderBottomLeftRadius: 15,
+              borderRadius: 15,
               justifyContent: "center",
               shadowOffset: {
                 width: 0,

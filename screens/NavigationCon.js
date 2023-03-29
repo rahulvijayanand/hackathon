@@ -8,6 +8,7 @@ import SearchScreen from "./SearchScreen";
 import ProfileScreen from "./ProfileScreen";
 import NotificationsScreen from "./NotificationsScreen";
 import SettingsScreen from "./SettingsScreen";
+import Login from "./Login";
 
 const Tab = createBottomTabNavigator();
 
@@ -79,7 +80,7 @@ const NavigationCon = () => {
       }}
     >
       <Tab.Screen name="Home" component={HomeStack} />
-      <Tab.Screen name="Settings" component={SettingsScreen} />
+      <Tab.Screen name="Settings" component={Login} />
       <Tab.Screen name="Profile" component={ProfileScreen} />
       <Tab.Screen name="Search" component={SearchScreen} />
       <Tab.Screen name="Notifications" component={NotificationsScreen} />
